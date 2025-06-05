@@ -158,6 +158,7 @@ If you see something that’s off, have better data, or want to adapt this for y
 MIT — use, remix, credit, and deploy freely.
 
 # Resources
+- [Explained: Generative AI’s environmental impact, MIT, January 2025](https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117)
 - [AI’s Growing Carbon Footprint, Columbia University, June 2023](https://news.climate.columbia.edu/2023/06/09/ais-growing-carbon-footprint/)
 - [Yes, AI Has a Carbon Footprint, Vice, June 2019](https://www.vice.com/en/article/training-one-ai-model-produces-as-much-emissions-as-a-cross-country-flight-study-finds/)
 - See how Google calculates flight carbon emissions with their [open source Travel Impact Model](https://travelimpactmodel.org/)
