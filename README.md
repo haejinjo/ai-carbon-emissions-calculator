@@ -4,7 +4,9 @@ _Real-time carbon footprint calculator for you and your business's AI workloads 
 
 ## Why I Built This
 
-The volume at which companies use AI is exploding — but we still have no idea what it *costs the planet* to run those models. This project started with a simple question:
+The volume at which companies use AI is exploding (see [Ramp AI Index](https://ramp.com/data/ai-index)) — but we still have no idea what it costs the planet to run those models. 
+
+This project started with a simple question:
 
 > **"What’s the carbon cost of a single LLM prompt?"**
 
