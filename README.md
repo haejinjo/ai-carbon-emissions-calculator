@@ -23,6 +23,7 @@ If we're serious about a future for our children, we need to make carbon emissio
 Thanks for caring about this stuff. I believe we can make carbon-aware AI the default — if we make it as easy and transparent as checking AWS billing.
 
 — Hejin 🌱
+
 ---
 
 ## What It Does
