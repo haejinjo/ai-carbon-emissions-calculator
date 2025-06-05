@@ -15,7 +15,7 @@ Inspired by [Ramp's AI Index](https://ramp.com/data/ai-index), which visualizes 
 > How much carbon does all this AI inference actually emit — in real time, at scale?
 
 The answers are out there, but nobody seems to know them.
-So I built an agent-powered form that makes it easy by hitting this code — using real public data, cloud hardware specs, and simple math formulas.
+So I built an agent-powered form that makes it easy by hitting this code, which uses real public data, cloud hardware specs, and simple math formulas to fetch you your answer.
 
 Wanna chat about putting this in production? Send me a message on [LinkedIn](https://www.linkedin.com/in/haejinjo/).
 
