@@ -6,8 +6,9 @@ _Measure emissions from AI operations in real time using public WattTime emissio
 
 
 <p align="center">
-  <img src="./assets/ai-carbon-index-demo.gif" alt="Demo gif" />
+  <img src="./assets/ai-carbon-index-demo.gif" alt="Demo gif" width="50%" />
 </p>
+
 ## Why I Built This
 
 AI carbon emissions should be as visible and actionable as cloud costs. Not buried in a once-a-year ESG report that nobody reads — but surfaced in real-time to consumers and executives, right where decisions are made.
