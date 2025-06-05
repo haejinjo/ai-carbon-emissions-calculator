@@ -112,7 +112,7 @@ def test_cloud_provider_comparison():
     
     return all_in_range
 
-
+# Simulates training jobs for GPT-3, BERT, BLOOM, and compares emissions against published papers
 def test_published_benchmarks():
     """Test 3: Compare against published ML training benchmarks"""
     print("\n" + "="*60)
@@ -175,7 +175,9 @@ def test_published_benchmarks():
     
     return in_range
 
-
+# Manually computes expected kWh for given instance types (e.g. A100, T4, H100) using raw wattage × time × utilization
+# Compares to emissions calculator output
+# Asserts percent difference and flags if beyond threshold:
 def test_energy_calculation():
     """Test 4: Verify energy calculations"""
     print("\n" + "="*60)
@@ -268,7 +270,9 @@ def test_sanity_ranges():
     
     return all_pass
 
-
+# Runs the same workload in regions with different carbon intensities (e.g. NY = 129.9, TX = 396.0, MO = 675.5)
+# Confirms whether higher emissions correlate with dirtier grid
+# Validates ratio between emissions and carbon intensity:
 def test_regional_variations():
     """Test 6: Verify regional carbon intensity differences"""
     print("\n" + "="*60)
