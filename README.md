@@ -116,8 +116,9 @@ I’d love your help making this more accurate, useful, and widely adopted.
 
 # More ways to interface
 - UI dashboard / web wrapper for accessibility (WIP)
-- Optimization CTAs:
+- Optimization CTAs (WIP):
   > "Run this job in Oregon, cut emissions by 35%"
+  >
   > “10M queries = 25 kg CO₂e (driving 62 miles). Run this at night in CA and save 20%.”)
 - Slack bot: “/carbon ai run”
 - GitHub Action for model training pipelines
