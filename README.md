@@ -4,6 +4,10 @@ _Easy CO₂ report for AI inference and training, built like AWS Billing._
 
 _Measure emissions from AI operations in real time using public WattTime emissions data, with precision tied to actual usage, infrastructure, and grid impact. Make smarter choices about when, where, and how you deploy AI._
 
+
+<p align="center">
+![Demo gif](./assets/ai-carbon-index-demo.gif)
+</p>
 ## Why I Built This
 
 AI carbon emissions should be as visible and actionable as cloud costs. Not buried in a once-a-year ESG report that nobody reads — but surfaced in real-time to consumers and executives, right where decisions are made.
