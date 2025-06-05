@@ -134,6 +134,10 @@ I’d love your help making this more accurate, useful, and widely adopted.
 
 ## More ways to interface
 - UI dashboard / web wrapper for accessibility (WIP)
+  - Integration to roll up and surface token consumption by team, model, and vendor quarterly
+  - Developer SDK & Logging Middleware
+Build a lightweight SDK or drop-in middleware for OpenAI, Anthropic, or other LLM APIs that automatically logs token usage per request, attaches metadata (user, team, endpoint), and sends structured logs to popular observability platforms (e.g. Datadog, BigQuery, or AWS CloudWatch). This would let developers track emissions effortlessly with zero manual instrumentation.
+  -  Enable businesses to retroactively estimate their AI token usage by parsing invoice costs and reverse-calculating token volumes based on model-specific pricing. This would allow teams without internal logging to generate rough carbon impact estimates using only billing data.
 - Optimization CTAs (WIP):
   > "Run this job in Oregon, cut emissions by 35%"
   >
@@ -161,4 +165,4 @@ MIT — use, remix, credit, and deploy freely.
 - [AI’s Growing Carbon Footprint, Columbia University, June 2023](https://news.climate.columbia.edu/2023/06/09/ais-growing-carbon-footprint/)
 - [Yes, AI Has a Carbon Footprint, Vice, June 2019](https://www.vice.com/en/article/training-one-ai-model-produces-as-much-emissions-as-a-cross-country-flight-study-finds/)
 - See how Google calculates flight carbon emissions with their [open source Travel Impact Model](https://travelimpactmodel.org/)
-- https://codecarbon.io/
+- Found an equivalent Python package for data science: dahttps://codecarbon.io/
