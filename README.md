@@ -1,10 +1,8 @@
-# 🌎 AI Carbon Emissions Calculator
+# AI Carbon Emissions Calculator
 
-_Real-time carbon footprint estimates for your AI workloads — grounded in public data, reproducible math, and real infrastructure._
+_Real-time carbon footprint calculator for you and your business's AI workloads — grounded in public data, reproducible math, and real infrastructure._
 
----
-
-## 🧠 Why I Built This
+## Why I Built This
 
 The volume at which companies use AI is exploding — but we still have no idea what it *costs the planet* to run those models. This project started with a simple question:
 
@@ -28,7 +26,7 @@ Wanna chat about putting this in production? Send me a message on [LinkedIn](htt
 
 ---
 
-## ⚙️ What It Does
+## What It Does
 
 With just **5 inputs**, the calculator estimates how much CO₂ your AI workloads emit — in real-time.
 
@@ -64,7 +62,7 @@ Everything is based on this fundamental formula, using the best available data t
 `Emissions = Power × Time × Carbon Intensity × PUE / 1000`
 
 
-## 🧪 Try It Locally
+## Try It Locally
 
 Clone the repo and install dependencies:
 ```bash
@@ -125,7 +123,7 @@ You can pass your own emissions output into this function and compare it directl
 
 File: `validate_against_benchmark()` in `ai_emissions_calculator.py`
 
-# ✨ How You Can Contribute
+# How You Can Contribute
 I’d love your help making this more accurate, useful, and widely adopted.
 
 ## Research support
