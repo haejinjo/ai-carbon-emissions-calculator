@@ -24,8 +24,8 @@ Thanks for caring about this stuff. I genuinely believe we can make carbon-aware
 
 — Hejin 🌱
 
-
 Wanna chat about putting this in production? Send me a message on [LinkedIn](https://www.linkedin.com/in/haejinjo/).
+
 ---
 
 ## ⚙️ What It Does
