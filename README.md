@@ -66,26 +66,34 @@ Everything is based on this fundamental formula:
 I estimate each factor using the best available data. 
 This isn't a black box. You can literally walk through every assumption I make with tests.
 
-✅ An accuracy test suite you can run yourself
+### ✅ An accuracy test suite you can run yourself
+
 The `test_accuracy.py` script includes a function that simulates known real-world model training workloads — like GPT-3 (~552,000 kg CO₂ for 1000 V100s over 30 days).
 It runs your calculator’s logic and compares the output to published results, showing whether you're in a reasonable range (e.g., within 2x–3x of OpenAI’s paper).
+
 File: `test_published_benchmarks()` in `test_accuracy.py`
 
-✅ Manual sanity checks for energy math
+### ✅ Manual sanity checks for energy math
+
 This test verifies that the core energy calculation (Watts × hours × carbon intensity × PUE) holds up with known constants.
+
 It runs example workloads like:
+
 > “A100 at 65% utilization for 1 hour”
 >
 > “T4 inference for 10 hours”
+
 Then it compares your calculator’s output against expected kWh using simple arithmetic — and fails the test if the difference is over 5%.
 File: `test_energy_calculation()` in `test_accuracy.py`
 
-✅ Regional comparisons (Texas vs Oregon vs New York)
+### ✅ Regional comparisons (Texas vs Oregon vs New York)
 Same workload. Different grid. This test runs identical inference jobs across multiple U.S. regions with different carbon intensities — and confirms the calculator reflects expected CO₂ differences.
 It shows, for example, that running in Missouri (675 gCO₂/kWh) emits ~5x more than in Upstate NY (129 gCO₂/kWh).
+
 File: `test_regional_variations()` in `test_accuracy.py`
 
-✅ Built-in benchmark validator for real-world scenarios
+### ✅ Built-in benchmark validator for real-world scenarios
+
 Inside the core calculator (`AIEmissionsCalculator.validate_against_benchmark()`), you’ll find hardcoded CO₂ benchmarks from well-known AI models:
 
 - GPT-3 training: ~552,000 kg CO₂
@@ -95,6 +103,7 @@ Inside the core calculator (`AIEmissionsCalculator.validate_against_benchmark()`
 - BERT inference: ~0.002 kg CO₂ per million tokens
 
 You can pass your own emissions output into this function and compare it directly to these reference models — so your team can tell if their job was abnormally high or low.
+
 File: `validate_against_benchmark()` in `ai_emissions_calculator.py`
 
 ```
@@ -109,12 +118,12 @@ python ai_emissions_calculator.py
 # ✨ How You Can Contribute
 I’d love your help making this more accurate, useful, and widely adopted.
 
-# Research support
+## Research support
 - Better benchmarks for LLM inference throughput
 - More granular PUE data by region/provider
 - Incorporate batch size scaling data
 
-# More ways to interface
+## More ways to interface
 - UI dashboard / web wrapper for accessibility (WIP)
 - Optimization CTAs (WIP):
   > "Run this job in Oregon, cut emissions by 35%"
@@ -130,7 +139,7 @@ I’d love your help making this more accurate, useful, and widely adopted.
 
 Just open a PR or an issue — or email me if you want to jam.
 
-# Feedback & Community
+## Feedback & Community
 
 This is just v0. 
 
