@@ -1,5 +1,7 @@
 # AI Carbon Index
 
+_Easy CO₂ report for AI inference and training, built like AWS Billing._
+
 _Real-time carbon footprint calculator for you and your business's AI workloads — grounded in public data, reproducible math, and real infrastructure._
 
 ## Why I Built This
