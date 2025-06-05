@@ -2,7 +2,7 @@
 
 _Easy CO₂ report for AI inference and training, built like AWS Billing._
 
-_Real-time carbon footprint calculator for you and your business's AI workloads — grounded in public data, reproducible math, and real infrastructure._
+_Measure emissions from AI operations in real time using public WattTime emissions data, with precision tied to actual usage, infrastructure, and grid impact. Make smarter choices about when, where, and how you deploy AI._
 
 ## Why I Built This
 
