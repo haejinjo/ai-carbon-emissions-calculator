@@ -13,13 +13,18 @@ The volume at which companies use AI is exploding — but we still have no idea 
 The answers are out there, but nobody seemed to be talking about them.
 So I built a tool that makes it easy — using real public data, cloud hardware specs, and simple math formulas.
 
-My vision is simple:
+My vision:
 AI carbon emissions should be as visible and actionable as cloud costs. Not buried in a once-a-year ESG report that nobody reads — but surfaced in real-time to consumers and executives, right where decisions are made.
 
-I want to see these numbers appear on every LLM API call, every model marketplace listing — the same way Google shows carbon impact for flights. (See how they calculate carbon emissions with their open source Travel Impact Model)
+I want to see these numbers appear on every LLM API call, every model marketplace listing — the same way Google shows carbon impact for flights. (See how they calculate carbon emissions with their [open source Travel Impact Model](https://travelimpactmodel.org/))
 
 If we're serious about a future for our children, we need to make carbon emissions impossible to ignore.
 
+Wanna chat about putting this in production? Send me a message on [LinkedIn](https://www.linkedin.com/in/haejinjo/).
+
+Thanks for caring about this stuff. I genuinely believe we can make carbon-aware AI the default — if we make it as easy and transparent as checking AWS billing.
+
+— Hejin 🌱
 ---
 
 ## ⚙️ What It Does
@@ -35,8 +40,8 @@ Inputs:
 5. Cloud Provider     → AWS, GCP, Azure, or on-prem
 
 Output:
-→ Total emissions in kg CO₂e
-→ Energy usage in kWh
+
+Total emissions in kg CO₂e and Energy usage in kWh.
 
 Example:
 ```json
@@ -54,6 +59,7 @@ Example:
 ## How It Works
 
 Everything is based on this fundamental formula:
+
 `Emissions = Power × Time × Carbon Intensity × PUE / 1000`
 
 I estimate each factor using the best available data. 
@@ -120,7 +126,6 @@ I’d love your help making this more accurate, useful, and widely adopted.
 - Convert to pip package or Hugging Face Space
 - Surface tests via API or CLI to give quick sanity checks like: “Your emissions are 1.2x that of BLOOM training. That’s expected for a similar workload.”
 
-
 Just open a PR or an issue — or email me if you want to jam.
 
 # Feedback & Community
@@ -131,14 +136,6 @@ If you see something that’s off, have better data, or want to adapt this for y
 
 # License
 MIT — use, remix, credit, and deploy freely.
-
-# Get in Touch
-- [LinkedIn](https://www.linkedin.com/in/haejinjo/)
-
-Thanks for caring about this stuff. I genuinely believe we can make carbon-aware AI the default — if we make it as easy and transparent as checking AWS billing.
-
-— Haejin 🌱
-
 
 # Resources
 - https://news.climate.columbia.edu/2023/06/09/ais-growing-carbon-footprint/
