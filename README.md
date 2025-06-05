@@ -16,7 +16,7 @@ So I built a tool that makes it easy — using real public data, cloud hardware 
 My vision:
 AI carbon emissions should be as visible and actionable as cloud costs. Not buried in a once-a-year ESG report that nobody reads — but surfaced in real-time to consumers and executives, right where decisions are made.
 
-I want to see these numbers appear on every LLM API call, every model marketplace listing — the same way Google shows carbon impact for flights. (See how they calculate carbon emissions with their [open source Travel Impact Model](https://travelimpactmodel.org/))
+I want to see these numbers appear on every LLM API call, every model marketplace listing — the same way Google shows carbon impact for flights.
 
 If we're serious about a future for our children, we need to make carbon emissions impossible to ignore.
 
@@ -160,3 +160,4 @@ MIT — use, remix, credit, and deploy freely.
 
 # Resources
 - https://news.climate.columbia.edu/2023/06/09/ais-growing-carbon-footprint/
+- See how Google calculates flight carbon emissions with their [open source Travel Impact Model](https://travelimpactmodel.org/)
