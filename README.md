@@ -20,11 +20,12 @@ I want to see these numbers appear on every LLM API call, every model marketplac
 
 If we're serious about a future for our children, we need to make carbon emissions impossible to ignore.
 
-Wanna chat about putting this in production? Send me a message on [LinkedIn](https://www.linkedin.com/in/haejinjo/).
-
 Thanks for caring about this stuff. I genuinely believe we can make carbon-aware AI the default — if we make it as easy and transparent as checking AWS billing.
 
 — Hejin 🌱
+
+
+Wanna chat about putting this in production? Send me a message on [LinkedIn](https://www.linkedin.com/in/haejinjo/).
 ---
 
 ## ⚙️ What It Does
