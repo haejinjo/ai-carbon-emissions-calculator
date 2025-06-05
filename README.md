@@ -1,4 +1,4 @@
-# AI Carbon Emissions Calculator
+# AI Carbon Index
 
 _Real-time carbon footprint calculator for you and your business's AI workloads — grounded in public data, reproducible math, and real infrastructure._
 
