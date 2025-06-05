@@ -32,7 +32,6 @@ Wanna chat about putting this in production? Send me a message on [LinkedIn](htt
 
 With just **5 inputs**, the calculator estimates how much CO₂ your AI workloads emit — in real-time.
 
-```text
 Inputs:
 1. Model Size         → small, medium, large, xlarge
 2. Tokens Processed   → e.g. 1,000,000
