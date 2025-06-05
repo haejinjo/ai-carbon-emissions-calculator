@@ -6,7 +6,7 @@ _Measure emissions from AI operations in real time using public WattTime emissio
 
 
 <p align="center">
-![Demo gif](./assets/ai-carbon-index-demo.gif)
+  <img src="./assets/ai-carbon-index-demo.gif" alt="Demo gif" />
 </p>
 ## Why I Built This
 
