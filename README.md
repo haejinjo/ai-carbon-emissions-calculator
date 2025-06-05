@@ -6,28 +6,23 @@ _Measure emissions from AI operations in real time using public WattTime emissio
 
 ## Why I Built This
 
-The volume at which companies use AI is exploding (see [Ramp AI Index](https://ramp.com/data/ai-index)) — but we still have no idea what it costs the planet to run those models. 
-
-This project started with a simple question:
-
-> **"What’s the carbon cost of a single LLM prompt?"**
-
-The answers are out there, but nobody seemed to be talking about them.
-So I built a tool that makes it easy — using real public data, cloud hardware specs, and simple math formulas.
-
-My vision:
 AI carbon emissions should be as visible and actionable as cloud costs. Not buried in a once-a-year ESG report that nobody reads — but surfaced in real-time to consumers and executives, right where decisions are made.
 
-I want to see these numbers appear on every LLM API call, every model marketplace listing — the same way Google shows carbon impact for flights.
+I want to see costs appear on every QBR deck, every LLM chatbox, every model marketplace listing — the same way Google shows carbon impact for flights before you book them.
 
-If we're serious about a future for our children, we need to make carbon emissions impossible to ignore.
+Inspired by [Ramp's AI Index](https://ramp.com/data/ai-index), which visualizes how companies spend on AI — I wanted to know the environmental cost behind that spend.
 
-Thanks for caring about this stuff. I genuinely believe we can make carbon-aware AI the default — if we make it as easy and transparent as checking AWS billing.
+> How much carbon does all this AI inference actually emit — in real time, at scale?
 
-— Hejin 🌱
+The answers are out there, but nobody seems to know them.
+So I built an agent-powered form that makes it easy by hitting this code — using real public data, cloud hardware specs, and simple math formulas.
 
 Wanna chat about putting this in production? Send me a message on [LinkedIn](https://www.linkedin.com/in/haejinjo/).
 
+If we're serious about a future for our children, we need to make carbon emissions impossible to ignore.
+Thanks for caring about this stuff. I believe we can make carbon-aware AI the default — if we make it as easy and transparent as checking AWS billing.
+
+— Hejin 🌱
 ---
 
 ## What It Does
@@ -36,7 +31,7 @@ With just **5 inputs**, the calculator estimates how much CO₂ your AI workload
 
 Inputs:
 1. Model Size         → small, medium, large, xlarge
-2. Tokens Processed   → e.g. 1,000,000
+2. Tokens Processed   → e.g. 1,000,000,000
 3. Instance Type      → A100, H100, TPUv4, etc.
 4. Region             → state or cloud region (e.g. "CA", "us-east-1")
 5. Cloud Provider     → AWS, GCP, Azure, or on-prem
