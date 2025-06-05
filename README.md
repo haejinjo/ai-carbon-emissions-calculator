@@ -59,11 +59,30 @@ Example:
 
 ## How It Works
 
-Everything is based on this fundamental formula:
+Everything is based on this fundamental formula, using the best available data to fill in the gaps:
 
 `Emissions = Power × Time × Carbon Intensity × PUE / 1000`
 
-I estimate each factor using the best available data. 
+
+## 🧪 Try It Locally
+
+Clone the repo and install dependencies:
+```bash
+git clone https://github.com/haejinjo/ai-emissions-calculator.git
+cd ai-emissions-calculator
+pip install -r requirements.txt
+python ai_emissions_calculator.py
+```
+
+Run the calculator directly with example inputs:
+`python ai_emissions_calculator.py`
+
+Or spin up a lightweight REST API (e.g., for integrating into tools, agents, or dashboards):
+`uvicorn api:app --reload`
+This lets you hit /estimate_emissions with a JSON payload and get back detailed emissions output. Great for internal tools, experimentation, or plugging into your AI stack.
+
+## Tests
+
 This isn't a black box. You can literally walk through every assumption I make with tests.
 
 ### ✅ An accuracy test suite you can run yourself
@@ -105,15 +124,6 @@ Inside the core calculator (`AIEmissionsCalculator.validate_against_benchmark()`
 You can pass your own emissions output into this function and compare it directly to these reference models — so your team can tell if their job was abnormally high or low.
 
 File: `validate_against_benchmark()` in `ai_emissions_calculator.py`
-
-```
-git clone https://github.com/haejinjo/ai-emissions-calculator.git
-cd ai-emissions-calculator
-pip install -r requirements.txt
-python ai_emissions_calculator.py
-```
-
-`uvicorn api:app --reload`
 
 # ✨ How You Can Contribute
 I’d love your help making this more accurate, useful, and widely adopted.
