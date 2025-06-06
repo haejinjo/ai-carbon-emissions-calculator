@@ -11,7 +11,9 @@ _Measure emissions from AI operations in real time using public WattTime emissio
 
 ## Why I Built This
 
-AI carbon emissions should be as visible and actionable as cloud costs. Not buried in a once-a-year ESG report that nobody reads — but surfaced in real-time to consumers and executives, right where decisions are made.
+AI token consumption and carbon emissions are tightly coupled.
+Both should be as visible and actionable as cloud costs. 
+Not buried in a once-a-year ESG report that nobody reads — but surfaced in real-time to consumers and executives, right where decisions are made.
 
 I want to see costs appear on every QBR deck, every LLM chatbox, every model marketplace listing — the same way Google shows carbon impact for flights before you book them.
 
